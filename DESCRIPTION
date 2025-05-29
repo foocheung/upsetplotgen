@@ -1,0 +1,29 @@
+Package: upsetplotgen
+Title: UpSet Plot Generator Shiny Application
+Version: 0.1.0
+Authors@R: 
+    person("Your", "Name", , "your.email@example.com", role = c("cre", "aut"))
+Description: A Shiny application for generating UpSet plots from CSV data with 
+    intersection analysis and data export capabilities.
+License: MIT + file LICENSE
+Imports: 
+    ComplexHeatmap,
+    DT,
+    dplyr,
+    ggplot2,
+    golem (>= 0.3.5),
+    grid,
+    pkgload,
+    readr,
+    shiny (>= 1.7.4),
+    tidyr,
+    zip
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+VignetteBuilder: knitr
