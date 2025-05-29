@@ -19,7 +19,7 @@ You can install the development version of upsetplotgen from GitHub:
 
 ```r
 # install.packages("devtools")
-devtools::install_github("yourusername/upsetplotgen")
+devtools::install_github("foocheung/upsetplotgen")
 ```
 
 ## Usage
