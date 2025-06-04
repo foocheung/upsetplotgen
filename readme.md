@@ -11,7 +11,7 @@ https://github.com/user-attachments/assets/d3faa0fa-e98c-483e-b6da-35542a39b0dd
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-The `upsetplotgen` package provides a Shiny application for generating UpSet plots from CSV data with comprehensive intersection analysis and data export capabilities.
+The `upsetplotgen` R package provides a Shiny application for generating UpSet plots from CSV data with comprehensive intersection analysis and data export capabilities.
 
 ## Installation
 
@@ -76,8 +76,6 @@ The application generates several output files:
 - **ZIP Archive**: Compressed file containing all generated files
 
 ## Package Structure
-
-This package is built using the [Golem](https://thinkr-open.github.io/golem/) framework for production-grade Shiny applications. The main components include:
 
 - `run_app()`: Main function to launch the application
 - `make_upset_plot_from_data()`: Core function for generating UpSet plots
